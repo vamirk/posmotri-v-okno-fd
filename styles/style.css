@@ -63,7 +63,7 @@ ol {
 
 .title {
   padding-bottom: 26px;
-  font-family: Oswald;
+  font-family: Oswald, sans-serif;
   font-weight: 700;
   font-size: 75px;
   line-height: 94%;
@@ -148,7 +148,7 @@ ol {
 }
 
 .content__video-card-description {
-  font-family: Fira Sans Condensed;
+  font-family: Fira Sans Condensed, sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 16.2px;
@@ -168,7 +168,7 @@ ol {
 }
 
 .search-form__fieldset-title {
-  font-family: Fira Sans Condensed;
+  font-family: Fira Sans Condensed, sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 100%;
@@ -188,6 +188,7 @@ ol {
 }
 
 .content__card-link {
+  display: block;
   text-decoration: none;
   color: white;
 }
@@ -196,7 +197,7 @@ ol {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  font-family: Oswald;
+  font-family: Oswald, sans-serif;
   font-weight: 700;
   font-size: 30px;
   line-height: 100%;
@@ -214,7 +215,7 @@ ol {
   background: transparent;
   color: white;
   border: 1px solid currentColor;
-  font-family: Fira Sans Condensed;
+  font-family: Fira Sans Condensed, sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 100%;
@@ -267,7 +268,7 @@ ol {
 
 .search-form__textfield {
   color: white;
-  font-family: Fira Sans Condensed;
+  font-family: Fira Sans Condensed, sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 100%;
@@ -294,7 +295,7 @@ ol {
 }
 
 .search-form__textfield::placeholder {
-  font-family: Fira Sans Condensed;
+  font-family: Fira Sans Condensed, sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 100%;
