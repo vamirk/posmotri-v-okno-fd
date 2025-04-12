@@ -56,7 +56,7 @@ ol {
 .content {
   width: 1140px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: end;
   gap: 30px;
 }
@@ -90,6 +90,7 @@ ol {
   height: 298px;
   overflow: auto;
   padding: 2px;
+  position: relative;
 }
 
 .content__list {
@@ -102,7 +103,7 @@ ol {
 .result__video-container {
   width: 711px;
   height: 386px;
-  padding-bottom: 16px;
+  position: relative;
 }
 
 .result__video {
@@ -134,7 +135,7 @@ ol {
 
 .content__card-link:focus-visible {
   outline: 1px solid white;
-  outline-offset: 1px; /* Необязательно - регулирует отступ */
+  outline-offset: 1px;
 }
 
 .content__video-card-thumbnail {
@@ -151,6 +152,7 @@ ol {
   font-size: 18px;
   line-height: 16.2px;
   letter-spacing: 0%;
+  margin-top: 6px;
 
   display: -webkit-box;
   -webkit-box-orient: vertical;
@@ -257,13 +259,17 @@ text-transform: uppercase;
   display: flex;
   width: fit-content;
   align-items: center;
-  padding: 0 1px; 
-  gap: 1.5px;
+  gap: 5px;
   width: 100%;
 }
 
 .search-form__textfield { 
   color: white;
+  font-family: Fira Sans Condensed;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
   border: 1px solid transparent;
   border-top-color: #fff;
   border-bottom-color: #fff;
