@@ -82,22 +82,26 @@ ol {
   gap: 40px;
 }
 
-.content__4details {
+.content__details {
   max-height: 534px;
 }
 
 .content__list-container {
   height: 298px;
   overflow: auto;
-  padding: 2px;
   position: relative;
 }
 
 .content__list {
   display: flex;
   flex-direction: column;
-  width: 399px;
   gap: 30px;
+}
+
+.result {
+  display: flex;
+  flex-direction: column;
+  gap: 16px
 }
 
 .result__video-container {
@@ -115,6 +119,7 @@ ol {
 .content__video-card {
   display: flex;
   align-items: flex-start;
+  padding-right: 3px;
   justify-content: space-between;
 }
 
@@ -337,10 +342,6 @@ text-transform: uppercase;
 
 .content__card-link_current .content__video-card {
   background-color: #545050;
-}
-
-.content__list-item {
-  padding: 0 3px;
 }
 .content__list-item:has(:focus-visible) {
   outline: 1px solid white
